@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import HeroImage from '@/public/images/dalle.png'
+import HeroImage from '@/public/images/yellow.png'
 
 export default function Hero() {
   return (
