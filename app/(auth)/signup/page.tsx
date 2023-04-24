@@ -66,12 +66,12 @@ export default function SignUp() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-[#FF8C00] hover:bg-[#FFA500] w-full">Sign up</button>
+                  <button className="btn text-white bg-[#5D5DFF] hover:bg-[#38379C] w-full">Sign up</button>
                 </div>
               </div>
             </form>
             <div className="text-[#666666] text-center mt-6">
-              Already using Open PRO? <Link href="/signin" className="text-[#FF8C00] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Sign in</Link>
+              Already using Open PRO? <Link href="/signin" className="text-[#5D5DFF] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Sign in</Link>
             </div>
           </div>
 

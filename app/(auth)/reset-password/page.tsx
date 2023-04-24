@@ -28,12 +28,12 @@ export default function ResetPassword() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-[#FF8C00] hover:bg-[#FFA500] w-full">Reset Password</button>
+                  <button className="btn text-white bg-[#5D5DFF] hover:bg-[#38379C] w-full">Reset Password</button>
                 </div>
               </div>
             </form>
             <div className="text-[#666666] text-center mt-6">
-              <Link href="/signin" className="text-[#FF8C00] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Cancel</Link>
+              <Link href="/signin" className="text-[#5D5DFF] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Cancel</Link>
             </div>
           </div>
 

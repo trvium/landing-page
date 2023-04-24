@@ -53,21 +53,21 @@ export default function SignIn() {
                 <div className="w-full px-3">
                   <div className="flex justify-between">
                     <label className="flex items-center">
-                      <input type="checkbox" className="form-checkbox text-[#E86C2C]" />
+                      <input type="checkbox" className="form-checkbox text-[#262668]" />
                       <span className="text-[#666666] ml-2">Keep me signed in</span>
                     </label>
-                    <Link href="/reset-password" className="text-[#FF8C00] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Forgot Password?</Link>
+                    <Link href="/reset-password" className="text-[#5D5DFF] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Forgot Password?</Link>
                   </div>
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-[#FF8C00] hover:bg-[#FFA500] w-full">Sign in</button>
+                  <button className="btn text-white bg-[#5D5DFF] hover:bg-[#38379C] w-full">Sign in</button>
                 </div>
               </div>
             </form>
             <div className="text-[#666666] text-center mt-6">
-              Don’t you have an account? <Link href="/signup" className="text-[#FF8C00] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Sign up</Link>
+              Don’t you have an account? <Link href="/signup" className="text-[#5D5DFF] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Sign up</Link>
             </div>
           </div>
 

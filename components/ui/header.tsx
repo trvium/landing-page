@@ -94,7 +94,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-[#FF8C00] hover:bg-[#FFA500] ml-3 px-3 py-2 flex items-center rounded-md">
+                <Link href="/signup" className="btn-sm text-white bg-[#5D5DFF] hover:bg-[#38379C] ml-3 px-3 py-2 flex items-center rounded-md">
                   Sign up
                 </Link>
               </li>

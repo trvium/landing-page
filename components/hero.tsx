@@ -30,7 +30,7 @@ export default function Hero() {
             <p className="text-xl text-[#666666] mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-[#FF8C00] hover:bg-[#FFA500] w-full mb-4 sm:w-auto sm:mb-0 ml-3 px-3 py-2 flex items-center rounded-md" href="#0">Get started</a>
+                <a className="btn text-white bg-[#5D5DFF] hover:bg-[#38379C] w-full mb-4 sm:w-auto sm:mb-0 ml-3 px-3 py-2 flex items-center rounded-md" href="#0">Get started</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-[#666666] hover:bg-[#333333] w-full sm:w-auto sm:ml-4 ml-3 px-3 py-2 flex items-center rounded-md" href="#0">Documentation</a>
