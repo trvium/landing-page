@@ -12,7 +12,7 @@ export default function Header() {
             <Link href="/" className="block" aria-label="Cruip">
               <svg version="1.0" xmlns="http://www.w3.org/2000/svg" height="24.000000pt" viewBox="0 0 3560.000000 714.000000" preserveAspectRatio="xMidYMid meet">
                 <g transform="translate(0.000000,714.000000) scale(0.100000,-0.100000)"
-                fill="#5C5DFF" stroke="none">
+                fill="#1A1A1A" stroke="none">
                   <path d="M450 5834 c0 -617 3 -774 13 -768 10 7 1702 1427 1805 1516 l33 28
                   -926 0 -925 0 0 -776z"/>
                   <path d="M4585 6591 c18 -16 1776 -1487 1818 -1520 16 -13 17 27 17 763 l0
@@ -64,7 +64,7 @@ export default function Header() {
               <li>
                 <Link
                   href="#features-id"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-[#1A1A1A] hover:text-[#666666] px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Features
                 </Link>
@@ -72,7 +72,7 @@ export default function Header() {
               <li>
                 <Link
                   href="#pricing-id"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-[#1A1A1A] hover:text-[#666666] px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Pricing
                 </Link>
@@ -80,7 +80,7 @@ export default function Header() {
               <li>
                 <Link
                   href="#faq-id"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-[#1A1A1A] hover:text-[#666666] px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   FAQ
                 </Link>
@@ -88,13 +88,13 @@ export default function Header() {
               <li>
                 <Link
                   href="/signin"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-[#1A1A1A] hover:text-[#666666] px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Sign in
                 </Link>
               </li>
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <Link href="/signup" className="btn-sm text-white bg-[#5D5DFF] hover:bg-[#38379C] ml-3 px-3 py-2 flex items-center rounded-md">
                   Sign up
                 </Link>
               </li>
