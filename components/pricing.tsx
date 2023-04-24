@@ -7,7 +7,7 @@ export default function Pricing() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Choose Your Plan</h2>
-            <p className="text-xl text-[#666666]">Lorem ipsum.</p>
+            <p className="text-md text-[#666666]">Upgrade your experience and choose from our selection of subscription packages.</p>
           </div>
 
           {/* Pricing boxes */}

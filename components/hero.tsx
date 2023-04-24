@@ -26,8 +26,8 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto pb-12 md:pb-16 w-full md:w-2/5">
-            <h1 className="h1 mb-4" data-aos="fade-up">Landing template for startups</h1>
-            <p className="text-xl text-[#666666] mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+            <h1 className="h1 mb-4" data-aos="fade-up">Simplify your crypto transactions.</h1>
+            <p className="text-xl text-[#666666] mb-8" data-aos="fade-up" data-aos-delay="200">Transform your cryptocurrency transactions with our reliable app. Easily manage your digital coins with security, taking advantage of the simplicity of our platform.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a className="btn text-white bg-[#5D5DFF] hover:bg-[#38379C] w-full mb-4 sm:w-auto sm:mb-0 ml-3 px-3 py-2 flex items-center rounded-md" href="#0">Get started</a>
