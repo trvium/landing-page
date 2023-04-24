@@ -62,7 +62,7 @@ export default function Footer() {
                   </svg>
                 </Link>
               </div>
-              <div className="text-[#666666]">Securely pay with cryptocurrency - Fast and Easy!</div>
+              <div className="text-[#666666]">Saas landing page template!</div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
@@ -89,10 +89,10 @@ export default function Footer() {
                 <h6 className="text-[#1A1A1A] font-medium mb-1">Legal</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-[#666666] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Terms & Conditions</Link>
+                    <Link href="/terms-conditions" className="text-[#666666] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Terms & Conditions</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-[#666666] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Privacy Policy</Link>
+                    <Link href="/privacy-policy" className="text-[#666666] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Privacy Policy</Link>
                   </li>
                 </ul>
               </div>

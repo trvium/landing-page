@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Trvium',
-  description: 'Securely pay with cryptocurrency - Fast and Easy!',
+  description: 'Saas landing page template!',
 }
 
 import Hero from '@/components/hero'
