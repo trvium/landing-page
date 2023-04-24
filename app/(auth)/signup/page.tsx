@@ -44,7 +44,7 @@ export default function SignUp() {
                 </div>
               </div>
               <div className="text-sm text-gray-500 text-center">
-                I agree to be contacted by Open PRO about this offer as per the Open PRO <Link href="#" className="underline text-[#666666] hover:text-[#D9D9D9] hover:no-underline transition duration-150 ease-in-out">Privacy Policy</Link>.
+                By using Trvium, I agree to be bound by the <Link href="/terms-conditions" target="_blank" className="underline text-[#666666] hover:text-[#D9D9D9] hover:no-underline transition duration-150 ease-in-out">Terms & Conditions</Link> and the <Link href="/privacy-policy" target="_blank" className="underline text-[#666666] hover:text-[#D9D9D9] hover:no-underline transition duration-150 ease-in-out">Privacy Policy</Link>, which I have read and understood.
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
@@ -53,7 +53,7 @@ export default function SignUp() {
               </div>
             </form>
             <div className="text-[#666666] text-center mt-6">
-              Already using Open PRO? <Link href="/signin" className="text-[#5D5DFF] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Sign in</Link>
+              Already using Trvium? <Link href="/signin" className="text-[#5D5DFF] hover:text-[#D9D9D9] transition duration-150 ease-in-out">Sign in</Link>
             </div>
           </div>
 
