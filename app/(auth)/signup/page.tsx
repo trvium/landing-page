@@ -33,7 +33,7 @@ export default function SignUp() {
             </form>
             <div className="flex items-center my-6">
               <div className="border-t border-gray-700 border-dotted grow mr-3" aria-hidden="true"></div>
-              <div className="text-gray-400">Or, register with your email</div>
+              <div className="text-[#666666]">Or, register with your email</div>
               <div className="border-t border-gray-700 border-dotted grow ml-3" aria-hidden="true"></div>
             </div>
             <form>
@@ -62,7 +62,7 @@ export default function SignUp() {
                 </div>
               </div>
               <div className="text-sm text-gray-500 text-center">
-                I agree to be contacted by Open PRO about this offer as per the Open PRO <Link href="#" className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Privacy Policy</Link>.
+                I agree to be contacted by Open PRO about this offer as per the Open PRO <Link href="#" className="underline text-[#666666] hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Privacy Policy</Link>.
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
@@ -70,7 +70,7 @@ export default function SignUp() {
                 </div>
               </div>
             </form>
-            <div className="text-gray-400 text-center mt-6">
+            <div className="text-[#666666] text-center mt-6">
               Already using Open PRO? <Link href="/signin" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Sign in</Link>
             </div>
           </div>

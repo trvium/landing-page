@@ -14,7 +14,7 @@ export default function ResetPassword() {
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h1 className="h1 mb-4">Forgot your password?</h1>
-            <p className="text-xl text-gray-400">We'll email you instructions on how to reset it.</p>
+            <p className="text-xl text-[#666666]">We'll email you instructions on how to reset it.</p>
           </div>
 
           {/* Form */}
@@ -32,7 +32,7 @@ export default function ResetPassword() {
                 </div>
               </div>
             </form>
-            <div className="text-gray-400 text-center mt-6">
+            <div className="text-[#666666] text-center mt-6">
               <Link href="/signin" className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">Cancel</Link>
             </div>
           </div>
