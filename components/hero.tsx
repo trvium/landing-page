@@ -25,7 +25,7 @@ export default function Hero() {
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16 flex flex-wrap items-center justify-center">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16 w-full md:w-3/5">
+          <div className="max-w-3xl mx-auto pb-12 md:pb-16 w-full md:w-2/5">
             <h1 className="h1 mb-4" data-aos="fade-up">Landing template for startups</h1>
             <p className="text-xl text-[#666666] mb-8" data-aos="fade-up" data-aos-delay="200">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
