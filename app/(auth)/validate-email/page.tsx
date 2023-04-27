@@ -31,7 +31,7 @@ export default function ResetPassword() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-purple-300 hover:bg-[#38379C] w-full">Validate account</button>
+                  <button className="btn text-white bg-purple-300 hover:bg-purple-500 w-full">Validate account</button>
                 </div>
               </div>
             </form>

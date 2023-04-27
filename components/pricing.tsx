@@ -40,7 +40,7 @@ export default function Pricing() {
                 <span className="text-gray-400 text-3xl font-medium">$29</span>
                 <span className="text-gray-400 text-lg ml-2">/ month</span>
               </div>
-              <a className="bg-purple-300 text-white py-2 px-6 rounded-full hover:bg-[#38379C] transition duration-150 ease-in-out" href="/signup">Choose Plan</a>
+              <a className="bg-purple-300 text-white py-2 px-6 rounded-full hover:bg-purple-500 transition duration-150 ease-in-out" href="/signup">Choose Plan</a>
             </div>
 
             {/* Professional Plan */}

@@ -33,7 +33,7 @@ export default function SignUp() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-purple-300 hover:bg-[#38379C] w-full">Update password</button>
+                  <button className="btn text-white bg-purple-300 hover:bg-purple-500 w-full">Update password</button>
                 </div>
               </div>
             </form>

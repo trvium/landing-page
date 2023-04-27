@@ -83,7 +83,7 @@ export default function MobileMenu() {
           <li>
             <Link
               href="/signup"
-              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-3 py-2 my-2 rounded-md text-white bg-purple-300 hover:bg-[#38379C] transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
+              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-3 py-2 my-2 rounded-md text-white bg-purple-300 hover:bg-purple-500 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
               Sign up
             </Link>

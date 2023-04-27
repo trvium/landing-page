@@ -35,7 +35,7 @@ export default function SignIn() {
                 <div className="w-full px-3">
                   <div className="flex justify-between">
                     <label className="flex items-center">
-                      <input type="checkbox" className="form-checkbox text-[#38379C]" />
+                      <input type="checkbox" className="form-checkbox text-purple-500" />
                       <span className="text-gray-300 ml-2">Keep me signed in</span>
                     </label>
                     <Link href="/reset-password" className="text-purple-300 hover:text-gray-200 transition duration-150 ease-in-out">Forgot Password?</Link>
@@ -44,7 +44,7 @@ export default function SignIn() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-purple-300 hover:bg-[#38379C] w-full">Sign in</button>
+                  <button className="btn text-white bg-purple-300 hover:bg-purple-500 w-full">Sign in</button>
                 </div>
               </div>
             </form>
