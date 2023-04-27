@@ -61,17 +61,17 @@ export default function MobileMenu() {
       >
         <ul className="bg-gray-200 px-4 py-2">
           <li>
-            <Link href="/#features-id" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="/#features-id" target="_blank" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Features
             </Link>
           </li>
           <li>
-            <Link href="/#pricing-id" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="/#pricing-id" target="_blank" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Pricing
             </Link>
           </li>
           <li>
-            <Link href="/#faq-id" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="/#faq-id" target="_blank" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               FAQ
             </Link>
           </li>
