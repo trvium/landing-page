@@ -25,7 +25,7 @@ export default function Pricing() {
                 <span className="text-[#333333] text-3xl font-medium">$0</span>
                 <span className="text-[#333333] text-lg ml-2">/ month</span>
               </div>
-              <a className="bg-[#333333] text-[#F0F0F0] py-2 px-6 rounded-full hover:bg-[#666666] transition duration-150 ease-in-out" href="/signup">Choose Plan</a>
+              <a className="bg-[#333333] text-gray-100 py-2 px-6 rounded-full hover:bg-[#666666] transition duration-150 ease-in-out" href="/signup">Choose Plan</a>
             </div>
 
             {/* Premium Plan */}
@@ -40,7 +40,7 @@ export default function Pricing() {
                 <span className="text-[#333333] text-3xl font-medium">$29</span>
                 <span className="text-[#333333] text-lg ml-2">/ month</span>
               </div>
-              <a className="bg-[#5D5DFF] text-[#F0F0F0] py-2 px-6 rounded-full hover:bg-[#38379C] transition duration-150 ease-in-out" href="/signup">Choose Plan</a>
+              <a className="bg-[#5D5DFF] text-gray-100 py-2 px-6 rounded-full hover:bg-[#38379C] transition duration-150 ease-in-out" href="/signup">Choose Plan</a>
             </div>
 
             {/* Professional Plan */}
@@ -55,7 +55,7 @@ export default function Pricing() {
                 <span className="text-[#333333] text-3xl font-medium">$99</span>
                 <span className="text-[#333333] text-lg ml-2">/ month</span>
               </div>
-              <a className="bg-[#333333] text-[#F0F0F0] py-2 px-6 rounded-full hover:bg-[#666666] transition duration-150 ease-in-out" href="/signup">Choose Plan</a>
+              <a className="bg-[#333333] text-gray-100 py-2 px-6 rounded-full hover:bg-[#666666] transition duration-150 ease-in-out" href="/signup">Choose Plan</a>
             </div>
 
           </div>
