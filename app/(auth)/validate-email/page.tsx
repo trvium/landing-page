@@ -31,12 +31,12 @@ export default function ResetPassword() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-[#5D5DFF] hover:bg-[#38379C] w-full">Validate account</button>
+                  <button className="btn text-white bg-purple-300 hover:bg-[#38379C] w-full">Validate account</button>
                 </div>
               </div>
             </form>
             <div className="text-gray-300 text-center mt-6">
-              Didn’t receive the verification code? <button className="text-[#5D5DFF] hover:text-gray-200 transition duration-150 ease-in-out">Resend code</button>
+              Didn’t receive the verification code? <button className="text-purple-300 hover:text-gray-200 transition duration-150 ease-in-out">Resend code</button>
             </div>
           </div>
 

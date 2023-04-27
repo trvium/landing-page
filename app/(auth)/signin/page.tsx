@@ -35,21 +35,21 @@ export default function SignIn() {
                 <div className="w-full px-3">
                   <div className="flex justify-between">
                     <label className="flex items-center">
-                      <input type="checkbox" className="form-checkbox text-[#262668]" />
+                      <input type="checkbox" className="form-checkbox text-[#38379C]" />
                       <span className="text-gray-300 ml-2">Keep me signed in</span>
                     </label>
-                    <Link href="/reset-password" className="text-[#5D5DFF] hover:text-gray-200 transition duration-150 ease-in-out">Forgot Password?</Link>
+                    <Link href="/reset-password" className="text-purple-300 hover:text-gray-200 transition duration-150 ease-in-out">Forgot Password?</Link>
                   </div>
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-[#5D5DFF] hover:bg-[#38379C] w-full">Sign in</button>
+                  <button className="btn text-white bg-purple-300 hover:bg-[#38379C] w-full">Sign in</button>
                 </div>
               </div>
             </form>
             <div className="text-gray-300 text-center mt-6">
-              Don’t you have an account? <Link href="/signup" className="text-[#5D5DFF] hover:text-gray-200 transition duration-150 ease-in-out">Sign up</Link>
+              Don’t you have an account? <Link href="/signup" className="text-purple-300 hover:text-gray-200 transition duration-150 ease-in-out">Sign up</Link>
             </div>
           </div>
 

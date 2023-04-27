@@ -48,12 +48,12 @@ export default function SignUp() {
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-[#5D5DFF] hover:bg-[#38379C] w-full">Sign up</button>
+                  <button className="btn text-white bg-purple-300 hover:bg-[#38379C] w-full">Sign up</button>
                 </div>
               </div>
             </form>
             <div className="text-gray-300 text-center mt-6">
-              Already using Trvium? <Link href="/signin" className="text-[#5D5DFF] hover:text-gray-200 transition duration-150 ease-in-out">Sign in</Link>
+              Already using Trvium? <Link href="/signin" className="text-purple-300 hover:text-gray-200 transition duration-150 ease-in-out">Sign in</Link>
             </div>
           </div>
 
