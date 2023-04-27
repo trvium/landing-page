@@ -30,10 +30,10 @@ export default function Hero() {
             <p className="text-xl text-gray-300 mb-8" data-aos="fade-up" data-aos-delay="200">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-300 hover:bg-purple-500 w-full mb-4 sm:w-auto sm:mb-0 ml-3 px-3 py-2 flex items-center rounded-md" href="/signup">Get started</a>
+                <a className="btn text-white bg-purple-300 hover:bg-purple-500 w-full mb-4 sm:w-auto sm:mb-0 px-3 py-2 flex items-center rounded-md" href="/signup">Get started</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-300 hover:bg-gray-400 w-full sm:w-auto sm:ml-4 ml-3 px-3 py-2 flex items-center rounded-md" href="https://github.com/trvium" target="_blank">Documentation</a>
+                <a className="btn text-white bg-gray-300 hover:bg-gray-400 w-full sm:w-auto sm:ml-4 px-3 py-2 flex items-center rounded-md" href="https://github.com/trvium" target="_blank">Documentation</a>
               </div>
             </div>
           </div>
