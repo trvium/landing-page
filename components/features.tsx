@@ -18,7 +18,7 @@ export default function Features() {
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-gray-200" width="64" height="64" rx="32" />
                 <path className="stroke-current text-[#38379C]" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
-                <path className="stroke-current text-[#F4F4FF]" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
+                <path className="stroke-current text-purple-100" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
               <p className="text-lg text-gray-300 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
@@ -29,7 +29,7 @@ export default function Features() {
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <circle className="fill-current text-gray-200" cx="32" cy="32" r="32" />
                 <path className="stroke-current text-[#38379C]" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
-                <path className="stroke-current text-[#F4F4FF]" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
+                <path className="stroke-current text-purple-100" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
               <p className="text-lg text-gray-300 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
@@ -40,7 +40,7 @@ export default function Features() {
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-gray-200" width="64" height="64" rx="32" />
                 <g transform="translate(21 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <ellipse className="stroke-current text-[#F4F4FF]" cx="11" cy="11" rx="5.5" ry="11" />
+                  <ellipse className="stroke-current text-purple-100" cx="11" cy="11" rx="5.5" ry="11" />
                   <path className="stroke-current text-[#38379C]" d="M11 0v22M0 11h22" />
                   <circle className="stroke-current text-[#38379C]" cx="11" cy="11" r="11" />
                 </g>
