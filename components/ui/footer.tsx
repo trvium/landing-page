@@ -70,7 +70,7 @@ export default function Footer() {
 
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-[#1A1A1A] font-medium mb-1">Company</h6>
+                <h6 className="text-gray-500 font-medium mb-1">Company</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="#features-id" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Features</Link>
@@ -86,7 +86,7 @@ export default function Footer() {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-[#1A1A1A] font-medium mb-1">Legal</h6>
+                <h6 className="text-gray-500 font-medium mb-1">Legal</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="/terms-conditions" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Terms & Conditions</Link>
@@ -99,7 +99,7 @@ export default function Footer() {
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-[#1A1A1A] font-medium mb-1">Help</h6>
+                <h6 className="text-gray-500 font-medium mb-1">Help</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="/" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Status</Link>

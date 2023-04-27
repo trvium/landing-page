@@ -42,7 +42,7 @@ export default function MobileMenu() {
       >
         <span className="sr-only">Menu</span>
         <svg
-          className="w-6 h-6 fill-current text-[#1A1A1A] hover:text-gray-300 transition duration-150 ease-in-out"
+          className="w-6 h-6 fill-current text-gray-500 hover:text-gray-300 transition duration-150 ease-in-out"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -61,22 +61,22 @@ export default function MobileMenu() {
       >
         <ul className="bg-gray-200 px-4 py-2">
           <li>
-            <Link href="#features-id" className="flex font-medium w-full text-[#1A1A1A] hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="#features-id" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Features
             </Link>
           </li>
           <li>
-            <Link href="#pricing-id" className="flex font-medium w-full text-[#1A1A1A] hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="#pricing-id" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Pricing
             </Link>
           </li>
           <li>
-            <Link href="#faq-id" className="flex font-medium w-full text-[#1A1A1A] hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="#faq-id" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               FAQ
             </Link>
           </li>
           <li>
-            <Link href="/signin" className="flex font-medium w-full text-[#1A1A1A] hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+            <Link href="/signin" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Sign in
             </Link>
           </li>
