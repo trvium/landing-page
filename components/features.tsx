@@ -16,7 +16,7 @@ export default function Features() {
             {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-[#D9D9D9]" width="64" height="64" rx="32" />
+                <rect className="fill-current text-gray-200" width="64" height="64" rx="32" />
                 <path className="stroke-current text-[#38379C]" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-[#F4F4FF]" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
@@ -27,7 +27,7 @@ export default function Features() {
             {/* 2nd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <circle className="fill-current text-[#D9D9D9]" cx="32" cy="32" r="32" />
+                <circle className="fill-current text-gray-200" cx="32" cy="32" r="32" />
                 <path className="stroke-current text-[#38379C]" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-[#F4F4FF]" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
@@ -38,7 +38,7 @@ export default function Features() {
             {/* 3rd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-[#D9D9D9]" width="64" height="64" rx="32" />
+                <rect className="fill-current text-gray-200" width="64" height="64" rx="32" />
                 <g transform="translate(21 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
                   <ellipse className="stroke-current text-[#F4F4FF]" cx="11" cy="11" rx="5.5" ry="11" />
                   <path className="stroke-current text-[#38379C]" d="M11 0v22M0 11h22" />

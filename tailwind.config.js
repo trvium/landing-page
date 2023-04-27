@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         gray: {
           100: '#F0F0F0',
-          200: '#D9E3EA',
+          200: '#D9D9D9',
           300: '#C5D2DC',
           400: '#9BA9B4',
           500: '#707D86',

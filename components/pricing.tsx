@@ -2,7 +2,7 @@ export default function Pricing() {
   return (
     <section>
       <div id="pricing-id" className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-[#D9D9D9]">
+        <div className="py-12 md:py-20 border-t border-gray-200">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
@@ -14,7 +14,7 @@ export default function Pricing() {
           <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
             
             {/* Free Plan */}
-            <div className="bg-[#D9D9D9] rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="0">
+            <div className="bg-gray-200 rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="0">
               <h3 className="text-2xl text-[#333333] mb-4">Free</h3>
               <div className="flex">
                 <span className="text-[#666666] text-md font-medium">1,000</span>
@@ -29,7 +29,7 @@ export default function Pricing() {
             </div>
 
             {/* Premium Plan */}
-            <div className="bg-[#D9D9D9] rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="100">
+            <div className="bg-gray-200 rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="100">
               <h3 className="text-2xl text-[#333333] mb-4">Premium</h3>
               <div className="flex">
                 <span className="text-[#666666] text-md font-medium">10,000</span>
@@ -44,7 +44,7 @@ export default function Pricing() {
             </div>
 
             {/* Professional Plan */}
-            <div className="bg-[#D9D9D9] rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="200">
+            <div className="bg-gray-200 rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="200">
               <h3 className="text-2xl text-[#333333] mb-4">Professional</h3>
               <div className="flex">
                 <span className="text-[#666666] text-md font-medium">50,000</span>
