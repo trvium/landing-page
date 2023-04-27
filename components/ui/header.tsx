@@ -64,7 +64,7 @@ export default function Header() {
               <li>
                 <Link
                   href="#features-id"
-                  className="font-medium text-[#1A1A1A] hover:text-[#666666] px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-[#1A1A1A] hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Features
                 </Link>
@@ -72,7 +72,7 @@ export default function Header() {
               <li>
                 <Link
                   href="#pricing-id"
-                  className="font-medium text-[#1A1A1A] hover:text-[#666666] px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-[#1A1A1A] hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Pricing
                 </Link>
@@ -80,7 +80,7 @@ export default function Header() {
               <li>
                 <Link
                   href="#faq-id"
-                  className="font-medium text-[#1A1A1A] hover:text-[#666666] px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-[#1A1A1A] hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   FAQ
                 </Link>
@@ -88,7 +88,7 @@ export default function Header() {
               <li>
                 <Link
                   href="/signin"
-                  className="font-medium text-[#1A1A1A] hover:text-[#666666] px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-[#1A1A1A] hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Sign in
                 </Link>

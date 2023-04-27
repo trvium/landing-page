@@ -27,13 +27,13 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto pb-12 md:pb-16 w-full md:w-2/5">
             <h1 className="h1 mb-4" data-aos="fade-up">Saas landing page template.</h1>
-            <p className="text-xl text-[#666666] mb-8" data-aos="fade-up" data-aos-delay="200">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+            <p className="text-xl text-gray-300 mb-8" data-aos="fade-up" data-aos-delay="200">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a className="btn text-white bg-[#5D5DFF] hover:bg-[#38379C] w-full mb-4 sm:w-auto sm:mb-0 ml-3 px-3 py-2 flex items-center rounded-md" href="/signup">Get started</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-[#666666] hover:bg-[#333333] w-full sm:w-auto sm:ml-4 ml-3 px-3 py-2 flex items-center rounded-md" href="https://github.com/trvium" target="_blank">Documentation</a>
+                <a className="btn text-white bg-gray-300 hover:bg-[#333333] w-full sm:w-auto sm:ml-4 ml-3 px-3 py-2 flex items-center rounded-md" href="https://github.com/trvium" target="_blank">Documentation</a>
               </div>
             </div>
           </div>

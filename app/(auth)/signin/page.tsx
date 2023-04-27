@@ -21,14 +21,14 @@ export default function SignIn() {
             <form>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-                  <label className="block text-[#666666] text-sm font-medium mb-1" htmlFor="email">Email</label>
-                  <input id="email" type="email" className="form-input w-full text-[#666666]" placeholder="you@yourcompany.com" required />
+                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="email">Email</label>
+                  <input id="email" type="email" className="form-input w-full text-gray-300" placeholder="you@yourcompany.com" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-                  <label className="block text-[#666666] text-sm font-medium mb-1" htmlFor="password">Password</label>
-                  <input id="password" type="password" className="form-input w-full text-[#666666]" placeholder="Password (at least 10 characters)" required />
+                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="password">Password</label>
+                  <input id="password" type="password" className="form-input w-full text-gray-300" placeholder="Password (at least 10 characters)" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-4">
@@ -36,7 +36,7 @@ export default function SignIn() {
                   <div className="flex justify-between">
                     <label className="flex items-center">
                       <input type="checkbox" className="form-checkbox text-[#262668]" />
-                      <span className="text-[#666666] ml-2">Keep me signed in</span>
+                      <span className="text-gray-300 ml-2">Keep me signed in</span>
                     </label>
                     <Link href="/reset-password" className="text-[#5D5DFF] hover:text-gray-200 transition duration-150 ease-in-out">Forgot Password?</Link>
                   </div>
@@ -48,7 +48,7 @@ export default function SignIn() {
                 </div>
               </div>
             </form>
-            <div className="text-[#666666] text-center mt-6">
+            <div className="text-gray-300 text-center mt-6">
               Don’t you have an account? <Link href="/signup" className="text-[#5D5DFF] hover:text-gray-200 transition duration-150 ease-in-out">Sign up</Link>
             </div>
           </div>

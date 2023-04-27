@@ -62,7 +62,7 @@ export default function Footer() {
                   </svg>
                 </Link>
               </div>
-              <div className="text-[#666666]">Saas landing page template!</div>
+              <div className="text-gray-300">Saas landing page template!</div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
@@ -73,13 +73,13 @@ export default function Footer() {
                 <h6 className="text-[#1A1A1A] font-medium mb-1">Company</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="#features-id" className="text-[#666666] hover:text-gray-200 transition duration-150 ease-in-out">Features</Link>
+                    <Link href="#features-id" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Features</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="#pricing-id" className="text-[#666666] hover:text-gray-200 transition duration-150 ease-in-out">Pricing</Link>
+                    <Link href="#pricing-id" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Pricing</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="#faq-id" className="text-[#666666] hover:text-gray-200 transition duration-150 ease-in-out">FAQ</Link>
+                    <Link href="#faq-id" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">FAQ</Link>
                   </li>
                 </ul>
               </div>
@@ -89,10 +89,10 @@ export default function Footer() {
                 <h6 className="text-[#1A1A1A] font-medium mb-1">Legal</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/terms-conditions" className="text-[#666666] hover:text-gray-200 transition duration-150 ease-in-out">Terms & Conditions</Link>
+                    <Link href="/terms-conditions" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Terms & Conditions</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/privacy-policy" className="text-[#666666] hover:text-gray-200 transition duration-150 ease-in-out">Privacy Policy</Link>
+                    <Link href="/privacy-policy" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Privacy Policy</Link>
                   </li>
                 </ul>
               </div>
@@ -102,7 +102,7 @@ export default function Footer() {
                 <h6 className="text-[#1A1A1A] font-medium mb-1">Help</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-[#666666] hover:text-gray-200 transition duration-150 ease-in-out">Status</Link>
+                    <Link href="/" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Status</Link>
                   </li>
                 </ul>
               </div>
@@ -156,7 +156,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-[#666666] text-sm mr-4">&copy; Trvium.com. All rights reserved.</div>
+            <div className="text-gray-300 text-sm mr-4">&copy; Trvium.com. All rights reserved.</div>
 
           </div>
 

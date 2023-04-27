@@ -21,30 +21,30 @@ export default function SignUp() {
             <form>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-                  <label className="block text-[#666666] text-sm font-medium mb-1" htmlFor="full-name">Full Name <span className="text-red-600">*</span></label>
-                  <input id="full-name" type="text" className="form-input w-full text-[#666666]" placeholder="First and last name" required />
+                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="full-name">Full Name <span className="text-red-600">*</span></label>
+                  <input id="full-name" type="text" className="form-input w-full text-gray-300" placeholder="First and last name" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-                  <label className="block text-[#666666] text-sm font-medium mb-1" htmlFor="company-name">Company Name <span className="text-red-600">*</span></label>
-                  <input id="company-name" type="text" className="form-input w-full text-[#666666]" placeholder="Your company or app name" required />
+                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="company-name">Company Name <span className="text-red-600">*</span></label>
+                  <input id="company-name" type="text" className="form-input w-full text-gray-300" placeholder="Your company or app name" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-                  <label className="block text-[#666666] text-sm font-medium mb-1" htmlFor="email">Work Email <span className="text-red-600">*</span></label>
-                  <input id="email" type="email" className="form-input w-full text-[#666666]" placeholder="you@yourcompany.com" required />
+                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="email">Work Email <span className="text-red-600">*</span></label>
+                  <input id="email" type="email" className="form-input w-full text-gray-300" placeholder="you@yourcompany.com" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-                  <label className="block text-[#666666] text-sm font-medium mb-1" htmlFor="password">Password <span className="text-red-600">*</span></label>
-                  <input id="password" type="password" className="form-input w-full text-[#666666]" placeholder="Password (at least 10 characters)" required />
+                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="password">Password <span className="text-red-600">*</span></label>
+                  <input id="password" type="password" className="form-input w-full text-gray-300" placeholder="Password (at least 10 characters)" required />
                 </div>
               </div>
               <div className="text-sm text-gray-500 text-center">
-                By using Trvium, I agree to be bound by the <Link href="/terms-conditions" target="_blank" className="underline text-[#666666] hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Terms & Conditions</Link> and the <Link href="/privacy-policy" target="_blank" className="underline text-[#666666] hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Privacy Policy</Link>, which I have read and understood.
+                By using Trvium, I agree to be bound by the <Link href="/terms-conditions" target="_blank" className="underline text-gray-300 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Terms & Conditions</Link> and the <Link href="/privacy-policy" target="_blank" className="underline text-gray-300 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out">Privacy Policy</Link>, which I have read and understood.
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
@@ -52,7 +52,7 @@ export default function SignUp() {
                 </div>
               </div>
             </form>
-            <div className="text-[#666666] text-center mt-6">
+            <div className="text-gray-300 text-center mt-6">
               Already using Trvium? <Link href="/signin" className="text-[#5D5DFF] hover:text-gray-200 transition duration-150 ease-in-out">Sign in</Link>
             </div>
           </div>

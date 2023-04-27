@@ -14,9 +14,9 @@ export default function ResetPassword() {
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h1 className="h1 mb-4">Validate your account.</h1>
-            <div className="text-xl text-[#666666]">
-              <span className="text-[#666666]">Enter the code sent to </span>
-              <span className="text-[#666666] font-medium">mail@mail.com</span>
+            <div className="text-xl text-gray-300">
+              <span className="text-gray-300">Enter the code sent to </span>
+              <span className="text-gray-300 font-medium">mail@mail.com</span>
             </div>
           </div>
 
@@ -25,8 +25,8 @@ export default function ResetPassword() {
             <form>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-                  <label className="block text-[#666666] text-sm font-medium mb-1" htmlFor="code">Code</label>
-                  <input id="code" type="code" className="form-input w-full text-[#666666]" placeholder="Code received in email" required />
+                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="code">Code</label>
+                  <input id="code" type="code" className="form-input w-full text-gray-300" placeholder="Code received in email" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
@@ -35,7 +35,7 @@ export default function ResetPassword() {
                 </div>
               </div>
             </form>
-            <div className="text-[#666666] text-center mt-6">
+            <div className="text-gray-300 text-center mt-6">
               Didn’t receive the verification code? <button className="text-[#5D5DFF] hover:text-gray-200 transition duration-150 ease-in-out">Resend code</button>
             </div>
           </div>

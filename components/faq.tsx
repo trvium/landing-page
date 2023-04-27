@@ -10,7 +10,7 @@ export default function FAQ() {
         </div>
 
         {/* FAQ section */}
-        <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8 text-[#666666]" data-aos="fade-up" data-aos-delay="100">
+        <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8 text-gray-300" data-aos="fade-up" data-aos-delay="100">
 
           {/* Question 1 */}
           <div>

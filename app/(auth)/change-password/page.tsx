@@ -21,14 +21,14 @@ export default function SignUp() {
             <form>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-                  <label className="block text-[#666666] text-sm font-medium mb-1" htmlFor="password">Password <span className="text-red-600">*</span></label>
-                  <input id="password" type="password" className="form-input w-full text-[#666666]" placeholder="Password (at least 10 characters)" required />
+                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="password">Password <span className="text-red-600">*</span></label>
+                  <input id="password" type="password" className="form-input w-full text-gray-300" placeholder="Password (at least 10 characters)" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
-                  <label className="block text-[#666666] text-sm font-medium mb-1" htmlFor="password">Confirm Password <span className="text-red-600">*</span></label>
-                  <input id="password" type="password" className="form-input w-full text-[#666666]" placeholder="Password (at least 10 characters)" required />
+                  <label className="block text-gray-300 text-sm font-medium mb-1" htmlFor="password">Confirm Password <span className="text-red-600">*</span></label>
+                  <input id="password" type="password" className="form-input w-full text-gray-300" placeholder="Password (at least 10 characters)" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
