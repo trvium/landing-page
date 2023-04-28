@@ -1,7 +1,7 @@
 export default function Pricing() {
   return (
     <section>
-      <div id="pricing-id" className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div id="pricing-id" className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-200">
 
           {/* Section header */}
@@ -11,11 +11,12 @@ export default function Pricing() {
           </div>
 
           {/* Pricing boxes */}
-          <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
+          {/* <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8"> */}
+          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-1 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none">
             
             {/* Free Plan */}
             <div className="bg-gray-200 rounded-lg shadow-lg p-8 text-center" data-aos="fade-up" data-aos-delay="0">
-              <h3 className="text-2xl text-gray-400 mb-4 font-medium">Free</h3>
+              <h3 className="text-2xl text-gray-400 mb-4 font-semibold">Hobby</h3>
               <div className="text-center">
                 <span className="text-gray-300 text-md font-medium">1,000</span>
                 <span className="text-gray-300 text-md ml-2">/ month</span>
@@ -30,7 +31,7 @@ export default function Pricing() {
 
             {/* Premium Plan */}
             <div className="bg-gray-200 rounded-lg shadow-lg p-8 text-center" data-aos="fade-up" data-aos-delay="100">
-              <h3 className="text-2xl text-gray-400 mb-4 font-medium">Premium</h3>
+              <h3 className="text-2xl text-gray-400 mb-4 font-semibold">Business</h3>
               <div className="text-center">
                 <span className="text-gray-300 text-md font-medium">10,000</span>
                 <span className="text-gray-300 text-md ml-2">/ month</span>
@@ -45,7 +46,7 @@ export default function Pricing() {
 
             {/* Professional Plan */}
             <div className="bg-gray-200 rounded-lg shadow-lg p-8 text-center" data-aos="fade-up" data-aos-delay="200">
-              <h3 className="text-2xl text-gray-400 mb-4 font-medium">Professional</h3>
+              <h3 className="text-2xl text-gray-400 mb-4 font-semibold">Enterprise</h3>
               <div className="text-center">
                 <span className="text-gray-300 text-md font-medium">50,000</span>
                 <span className="text-gray-300 text-md ml-2">/ month</span>
