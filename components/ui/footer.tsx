@@ -73,13 +73,13 @@ export default function Footer() {
                 <h6 className="text-gray-500 font-medium mb-1">Company</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/#features-id" target="_blank" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Features</Link>
+                    <a href="/#features-id" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Features</a>
                   </li>
                   <li className="mb-1">
-                    <Link href="/#pricing-id" target="_blank" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Pricing</Link>
+                    <a href="/#pricing-id" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">Pricing</a>
                   </li>
                   <li className="mb-1">
-                    <Link href="/#faq-id" target="_blank" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">FAQ</Link>
+                    <a href="/#faq-id" className="text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out">FAQ</a>
                   </li>
                 </ul>
               </div>

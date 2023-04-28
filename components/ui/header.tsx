@@ -62,28 +62,28 @@ export default function Header() {
           <nav className="hidden md:flex md:grow">
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link
-                  href="/#features-id" target="_blank"
+                <a
+                  href="./#features-id"
                   className="font-medium text-gray-500 hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Features
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  href="/#pricing-id" target="_blank"
+                <a
+                  href="/#pricing-id"
                   className="font-medium text-gray-500 hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Pricing
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  href="/#faq-id" target="_blank"
+                <a
+                  href="/#faq-id"
                   className="font-medium text-gray-500 hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   FAQ
-                </Link>
+                </a>
               </li>
               <li>
                 <Link
