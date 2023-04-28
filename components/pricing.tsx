@@ -14,9 +14,9 @@ export default function Pricing() {
           <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
             
             {/* Free Plan */}
-            <div className="bg-gray-200 rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="0">
-              <h3 className="text-2xl text-gray-400 mb-4">Free</h3>
-              <div className="flex">
+            <div className="bg-gray-200 rounded-lg shadow-lg p-8 text-center" data-aos="fade-up" data-aos-delay="0">
+              <h3 className="text-2xl text-gray-400 mb-4 font-medium">Free</h3>
+              <div className="text-center">
                 <span className="text-gray-300 text-md font-medium">1,000</span>
                 <span className="text-gray-300 text-md ml-2">/ month</span>
               </div>
@@ -29,9 +29,9 @@ export default function Pricing() {
             </div>
 
             {/* Premium Plan */}
-            <div className="bg-gray-200 rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="100">
-              <h3 className="text-2xl text-gray-400 mb-4">Premium</h3>
-              <div className="flex">
+            <div className="bg-gray-200 rounded-lg shadow-lg p-8 text-center" data-aos="fade-up" data-aos-delay="100">
+              <h3 className="text-2xl text-gray-400 mb-4 font-medium">Premium</h3>
+              <div className="text-center">
                 <span className="text-gray-300 text-md font-medium">10,000</span>
                 <span className="text-gray-300 text-md ml-2">/ month</span>
               </div>
@@ -44,9 +44,9 @@ export default function Pricing() {
             </div>
 
             {/* Professional Plan */}
-            <div className="bg-gray-200 rounded-lg shadow-lg p-8" data-aos="fade-up" data-aos-delay="200">
-              <h3 className="text-2xl text-gray-400 mb-4">Professional</h3>
-              <div className="flex">
+            <div className="bg-gray-200 rounded-lg shadow-lg p-8 text-center" data-aos="fade-up" data-aos-delay="200">
+              <h3 className="text-2xl text-gray-400 mb-4 font-medium">Professional</h3>
+              <div className="text-center">
                 <span className="text-gray-300 text-md font-medium">50,000</span>
                 <span className="text-gray-300 text-md ml-2">/ month</span>
               </div>
