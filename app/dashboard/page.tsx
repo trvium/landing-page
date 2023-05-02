@@ -1,9 +1,18 @@
+import { getUser } from "@/utils/get-user";
+import { redirect } from 'next/navigation';
+
 export const metadata = {
   title: 'Dashboard - Trvium',
   description: 'Dashboard',
 }
 
-export default function SignIn() {
+export default async function SignIn() {
+  const user = await getUser();
+
+  if (!user) {
+    redirect('/api/auth/login')
+  }
+
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">

@@ -31,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-100 text-gray-400 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
+          {/* @ts-expect-error Server Component */}
           <Header />
           {children}
         </div>
