@@ -30,7 +30,6 @@ export default function MobileMenu(data?: any) {
     return () => document.removeEventListener('keydown', keyHandler)
   })
 
-  console.log(data)
   if (data.user) {
     return (
       <div className="md:hidden">
