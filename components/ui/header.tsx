@@ -98,12 +98,12 @@ export default async function Header() {
                   </Link>
                 </li>
                 <li>
-                  <a className="btn text-white bg-red-100 hover:bg-red-200 w-full mb-4 sm:w-auto sm:mb-0 px-3 py-2 items-center rounded-md" href="/api/auth/logout">Logout</a>
+                  <a className="btn text-gray-500 bg-gray-200 hover:bg-white hover:text-gray-300 w-full mb-4 sm:w-auto sm:mb-0 px-3 py-2 items-center rounded-md" href="/api/auth/logout">Logout</a>
                 </li>
               </ul>
             </nav>
 
-            <MobileMenu />
+            <MobileMenu user={user} />
 
           </div>
         </div>
@@ -209,7 +209,7 @@ export default async function Header() {
               </ul>
             </nav>
   
-            <MobileMenu />
+            <MobileMenu user={user} />
   
           </div>
         </div>
