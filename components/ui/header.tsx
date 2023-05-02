@@ -87,14 +87,14 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/signin"
+                  href="/api/auth/login"
                   className="font-medium text-gray-500 hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Sign in
                 </Link>
               </li>
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-300 hover:bg-purple-500 ml-3 px-3 py-2 flex items-center rounded-md">
+                <Link href="/api/auth/signup" className="btn-sm text-white bg-purple-300 hover:bg-purple-500 ml-3 px-3 py-2 flex items-center rounded-md">
                   Sign up
                 </Link>
               </li>
