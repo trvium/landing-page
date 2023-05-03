@@ -14,14 +14,14 @@ export default function FAQ() {
 
           {/* Question 1 */}
           <div>
-            <h3 className="text-xl font-medium mb-4">What do I get with each plan?</h3>
-            <p className="text-sm">With the Basic plan, you get access to our platform and all its features. The Premium plan includes everything from the Basic plan, as well as additional tools and resources. The Pro plan is our most comprehensive plan, offering all the features of the Basic and Premium plans, plus priority support and more.</p>
+            <h3 className="text-xl font-medium mb-4">Why wasn't I charged when switching plans?</h3>
+            <p className="text-sm">Our pricing is currently only a statement, which means you can switch plans whenever you want to test the features without being charged. You will only be charged when you select a paid plan and complete the payment process.</p>
           </div>
 
           {/* Question 2 */}
           <div>
-            <h3 className="text-xl font-medium mb-4">Can I switch plans at any time?</h3>
-            <p className="text-sm">Yes, you can switch plans at any time by logging into your account and selecting the plan you want to switch to. Your new plan will be effective immediately and any unused portion of your previous plan will be prorated and applied as a credit towards your new plan.</p>
+            <h3 className="text-xl font-medium mb-4">Why do I have limited information on the dashboard when logging in?</h3>
+            <p className="text-sm">Our dashboard is still in development, and we are working hard to finalize it. However, if you would like to contribute to the development of the dashboard or any other aspect of our Saas landing page template, our repository is public and we welcome contributions from the community.</p>
           </div>
         </div>
 
