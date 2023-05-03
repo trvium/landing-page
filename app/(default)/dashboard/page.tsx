@@ -10,12 +10,9 @@ export const metadata = {
 
 export default async function Dashboard() {
   const user = await getUser();
-  const userPlan = true;
 
   if (!user) {
     redirect('/api/auth/login')
-  } else if (!userPlan) {
-    redirect('/billing')
   } else {
     return (
       <>
