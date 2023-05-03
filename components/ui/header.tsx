@@ -66,28 +66,12 @@ export default async function Header() {
             <nav className="hidden md:flex md:grow">
               <ul className="flex grow justify-end flex-wrap items-center">
                 <li>
-                  <a
-                    href="./#features-id"
+                  <Link
+                    href="/billing"
                     className="font-medium text-gray-500 hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                   >
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/#pricing-id"
-                    className="font-medium text-gray-500 hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                  >
-                    Pricing
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/#faq-id"
-                    className="font-medium text-gray-500 hover:text-gray-300 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                  >
-                    FAQ
-                  </a>
+                    Billing
+                  </Link>
                 </li>
                 <li>
                   <Link
@@ -98,7 +82,7 @@ export default async function Header() {
                   </Link>
                 </li>
                 <li>
-                  <a className="btn text-gray-500 bg-gray-200 hover:bg-white hover:text-gray-300 w-full mb-4 sm:w-auto sm:mb-0 px-3 py-2 items-center rounded-md" href="/api/auth/logout">Logout</a>
+                  <a className="ml-10 btn text-gray-500 bg-gray-200 hover:bg-white hover:text-gray-300 w-full mb-4 sm:w-auto sm:mb-0 px-3 py-2 items-center rounded-md" href="/api/auth/logout">Logout</a>
                 </li>
               </ul>
             </nav>

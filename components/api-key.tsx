@@ -12,7 +12,7 @@ export default function ApiKey() {
 
   return (
     <section>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 relative">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 relative" data-aos="fade-up" data-aos-delay="50">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="bg-white rounded-md p-4 shadow-lg">
 

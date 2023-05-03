@@ -62,19 +62,9 @@ export default function MobileMenu(data?: any) {
         >
           <ul className="bg-gray-200 px-4 py-2">
             <li>
-              <a href="/#features-id" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-                Features
-              </a>
-            </li>
-            <li>
-              <a href="/#pricing-id" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a href="/#faq-id" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
-                FAQ
-              </a>
+              <Link href="/billing" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+                Billing
+              </Link>
             </li>
             <li>
               <Link href="/dashboard" className="flex font-medium w-full text-gray-500 hover:text-gray-300 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
