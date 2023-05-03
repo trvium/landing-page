@@ -2,7 +2,7 @@ export default function Billing() {
   return (
     <section>
       <div id="pricing-id" className="max-w-4xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-200">
+        <div className="py-12 md:py-20 border-t border-gray-200 mb-60">
           {/* Pricing boxes */}
           <div className="mt-20 max-w-sm mx-auto grid gap-8 md:grid-cols-1 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none">
             

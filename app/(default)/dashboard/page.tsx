@@ -1,4 +1,5 @@
 import ApiKey from "@/components/api-key";
+import PlanInfo from "@/components/plan-info";
 import { getUser } from "@/utils/get-user";
 import { redirect } from 'next/navigation';
 
@@ -18,6 +19,7 @@ export default async function Dashboard() {
   } else {
     return (
       <>
+        <PlanInfo />
         <ApiKey />
       </>
     )
