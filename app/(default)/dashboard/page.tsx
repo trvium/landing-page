@@ -1,5 +1,7 @@
 import ApiKey from "@/components/api-key";
 import PlanInfo from "@/components/plan-info";
+import { getInfo } from "@/utils/get-info";
+import { getToken } from "@/utils/get-token";
 import { getUser } from "@/utils/get-user";
 import { redirect } from 'next/navigation';
 
@@ -14,10 +16,12 @@ export default async function Dashboard() {
   if (!user) {
     redirect('/api/auth/login')
   } else {
+    const token = await getToken(user.email)
+    const info = await getInfo(token)
     return (
       <>
-        <PlanInfo />
-        <ApiKey />
+        <PlanInfo info={info} />
+        <ApiKey info={info} />
       </>
     )
   }

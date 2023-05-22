@@ -1,9 +1,9 @@
 'use client'
 
-export default function PlanInfo() {
-  const userPlan = 'Enterprise';
-  const userPlanLimit = 500;
-  const userPlanUsed = 125;
+export default function PlanInfo(data: any) {
+  const userPlanType = data.info.plan_type;
+  const userPlanLimit = data.info.plan_limit;
+  const userPlanUsed = data.info.plan_used;
 
   return (
     <section>
@@ -13,7 +13,7 @@ export default function PlanInfo() {
 
             <div className="font-medium text-1xl flex items-center">
               <span className="text-xl">Plan:</span>
-              <span className="ml-auto font-bold">{userPlan}</span>
+              <span className="ml-auto font-bold">{userPlanType}</span>
             </div>
             <div className="font-medium text-1xl flex items-center">
               <span className="text-xl">Plan Limit:</span>

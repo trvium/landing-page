@@ -1,7 +1,7 @@
 'use client'
 
-export default function ApiKey() {
-  const apiKey = 'b9418fcfb5b19843741b00446cf88b3f';
+export default function ApiKey(data: any) {
+  const apiKey = data.info.api_key;
 
   const handleCopy = () => {
     navigator.clipboard.writeText(apiKey);
