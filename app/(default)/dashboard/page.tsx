@@ -19,11 +19,10 @@ export default async function Dashboard() {
     const token = await getToken(user.email)
     const info = await getInfo(token)
     return (
-      <>
+      <div className="flex">
         <PlanInfo info={info} />
         <ApiKey info={info} />
-      </>
-    )
+      </div>
+    );
   }
-
 }
