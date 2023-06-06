@@ -1,36 +1,55 @@
-'use client'
+"use client"
+
+import React from 'react';
+import 'chart.js/auto';
+import { Doughnut } from 'react-chartjs-2';
 
 export default function PlanInfo(data: any) {
-  const userPlanType = data.info.plan_type;
-  const userPlanLimit = data.info.plan_limit;
-  const userPlanUsed = data.info.plan_used;
+  const userPlanType = data.info.planType;
+  const userPlanLimit = data.info.planLimit;
+  const userPlanUsed = data.info.planUsed;
+
+  const chartData = {
+    datasets: [
+      {
+        data: [userPlanUsed, userPlanLimit - userPlanUsed],
+        backgroundColor: ['#6C63FF', '#E4E7EB'],
+        borderWidth: 0,
+      },
+    ],
+  };
+
+  const chartOptions = {
+    cutout: '80%',
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        display: false,
+      },
+    },
+  };
 
   return (
-    <section>
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center" data-aos="fade-up" data-aos-delay="50">
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
-          <div className="bg-white rounded-md p-4 shadow-lg">
-
-            <div className="font-medium text-1xl flex items-center">
-              <span className="text-xl">Plan:</span>
-              <span className="ml-auto font-bold">{userPlanType}</span>
-            </div>
-            <div className="font-medium text-1xl flex items-center">
-              <span className="text-xl">Plan Limit:</span>
-              <span className="ml-auto font-bold">{userPlanLimit}</span>
-            </div>
-            <div className="font-medium text-1xl flex items-center">
-              <span className="text-xl">Plan Used:</span>
-              <span className="ml-auto font-bold">{userPlanUsed}</span>
-            </div>
-
-            <a href="/billing">
-              <button className="mt-4 px-4 py-2 rounded-md bg-purple-300 text-white hover:bg-purple-400">Change plan</button>
-            </a>
-
-          </div>
-        </div>
+    <div className="bg-white rounded-md shadow-lg w-full h-auto p-10 flex flex-col items-center">
+      <div className="mb-4">
+        <span className="text-xl font-medium">Plan: </span>
+        <span className="text-xl font-semibold">{userPlanType}</span>
       </div>
-    </section>
-  )
+      <div className="mb-4">
+        <Doughnut data={chartData} options={chartOptions} />
+      </div>
+      
+      <div className="text-center">
+        <span className="text-xl font-medium">Plan Used: </span>
+        <span className="text-xl ml-auto font-semibold">{userPlanUsed}</span>
+        <span className="text-xl font-medium"> / {userPlanLimit}</span>
+      </div>
+      <a href="/billing">
+        <button className="mt-4 px-4 py-2 rounded-md bg-purple-300 text-white hover:bg-purple-400">
+          Change plan
+        </button>
+      </a>
+    </div>
+  );
 }
