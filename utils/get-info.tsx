@@ -6,5 +6,13 @@ export const getInfo = async (token: string) => {
       authorization: `Bearer ${token}`
     }
   })
-  return response.data;
+
+  const info = {
+    authUrl: process.env.AUTHORIZATION_URL,
+    planType: response.data.plan_type,
+    planLimit: response.data.plan_limit,
+    planUsed: response.data.plan_used,
+    apiKey: response.data.api_key
+  }
+  return info;
 }
